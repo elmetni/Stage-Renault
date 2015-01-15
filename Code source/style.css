@@ -1,0 +1,1745 @@
+div#all
+{
+width: 1000px;
+margin: 0 auto;
+padding : 0;
+ background : #FFF;
+ height: auto;
+
+
+
+}
+
+body
+{
+	background : url('images/background.png') center #e5e5e1 repeat-y;
+	margin:0px;
+	padding:0px;
+	
+}
+p.clear
+{
+	clear:both;
+	margin:0px;
+}
+
+p#clear
+{
+	clear:both;
+	margin:0px;
+}
+
+
+div#header
+{
+position : relative ;
+height : 120px;
+width : 1010px;
+margin-left:-5px;
+
+}
+/******************************* bar *****************************/
+div#user_bar
+{
+	background:#FFC64A;
+	width:1010px;
+	margin-left:-5px;
+	height:50px;
+	padding-left:10px;
+
+}
+
+div#user_bar img
+{
+	float:left;
+	
+}
+
+div#user_bar select
+{
+	float:left;
+	
+}
+
+div#user_bar input
+{
+	float:left;
+	
+}
+
+div#user_bar img
+{
+	float:left;
+	
+}
+
+
+div#user_bar p
+{
+	float:left;
+	color:black;
+	font-size:1.4em;
+	
+}
+
+div#user_bar #logout
+{
+	float:right;
+	width:30px;
+	height:30px;
+	border:0;
+	text-indent:-1000em;
+	background:url('images/logout.png');
+	cursor:pointer;
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:5px;
+	
+
+}
+
+div#user_bar #logout:hover
+{
+	background:url('images/logout_hard.png');
+}
+
+
+div#user_bar #bar_go
+{
+	float:left;
+	width:30px;
+	height:30px;
+	border:0;
+	text-indent:-1000em;
+	background:url('images/go.png');
+	cursor:pointer;
+	margin-top:10px;
+	margin-left:5px;
+	
+
+}
+
+div#user_bar #bar_go:hover
+{
+	background:url('images/go_hard.png');
+}
+
+div#user_bar a.bar_edit
+{
+	display:block;
+	height:30px;
+	width:70px;
+	text-indent:-1000em;
+	background:url('images/edit.png');
+	float:left;
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:5px;
+}
+div#user_bar a.bar_edit:hover
+{
+background:url('images/edit_hard.png');
+}
+
+
+div#user_bar select
+{
+	font-size:1.2em;
+	color: #fc4d00;
+	height:30px
+}
+div#user_bar .user
+{
+	float:left;
+}
+
+div#user_bar p
+{
+	margin: 0px;
+	margin-top:10px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+div#user_bar img
+{
+	margin: 0px;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+div#user_bar select
+{
+	margin: 0px;
+	margin-top:10px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+div#user_bar select#bar_day
+{
+	margin: 0px;
+	margin-left:20px;
+	margin-top:10px;
+}
+div#user_bar div
+{
+	float:left;
+	width:360px;
+	margin-left:15px;
+
+}
+
+/******************************* Menu ****************************/
+div#menu 
+{
+	position: absolute;
+	bottom:28px;
+	left :30px;
+	margin:0;
+
+	
+
+}
+
+div#menu ul
+{
+	list-style: none;
+	
+}
+div#menu li
+{
+float : left;
+margin : 0 ;
+padding : 0;
+}
+
+div#menu li a
+{
+	line-height:40px; 
+	width:170px;
+	text-align:center;
+	display:block;
+	background: #D8D1C5;
+	color: #fff;
+	text-decoration:none;
+	font-size:1.4em;
+	margin-right:10px;
+
+}
+div#menu li a:hover
+{
+background: black;
+	color:#fff;
+	}
+	
+div#menu  a.main , div#menu  a.main:hover
+{
+	background: #FFF;
+	color:#fc4d00;
+	border-left: 2px solid #FFC64A;
+	border-right: 2px solid #FFC64A;
+	border-bottom: 2px solid #FFC64A;
+	border-top: 0px;
+	line-height:60px;
+	margin-bottom: -20px;
+	font-size:1.7em;
+	cursor: default;
+	}
+
+
+/******************************* agenda **************************/
+div.year
+{
+margin-left:0px;
+
+}
+div.year a.preview:link,div.year a.preview:visited
+{
+				height:36px;
+				width:36px; 
+				display: block ;
+				background :url('images/preview_year.png')no-repeat;
+				border:0;
+				text-indent:-1000em;
+				float:left;
+				margin-right:30px;
+				margin-left:30px;
+				margin-top:7px;
+}
+
+div.year a.preview:hover 
+{
+				background :url('images/year_preview_hard.png')no-repeat;
+				}
+				
+div.year a.next:link,div.year a.next:visited
+{
+				height:36px;
+				width:36px; 
+				display: block ;
+				background :url('images/year_next.png')no-repeat;
+				border:0;
+				text-indent:-1000em;
+				float:left;
+				clear:right;
+				margin-left:30px;
+				margin-top:7px;
+
+}
+
+div.year a.next:hover 
+{
+				background :url('images/year_next_hard.png')no-repeat;
+				}
+				
+div.year p
+{
+		font-size: 2.7em;
+		color: #fc4d00;
+		margin:0px;
+		float:left;
+	
+}
+div.year p.purcent_show
+{
+		
+		float:right;
+		margin-right:30px;
+	
+}
+div.agenda
+{
+	clear:left;
+	float:right;
+	padding-top:20px;
+	position:relative;
+	
+
+}
+
+div.agenda ul
+{
+		list-style: none;
+		margin:0;
+		padding:0;
+		
+		
+		}
+div.agenda li
+{
+float : left;
+margin : 0 ;
+padding : 0;
+}
+
+div.agenda a:link ,div.agenda a:visited
+{
+		width:80px;
+		
+		line-height:40px;
+		display: block;
+		text-decoration:none;
+		color: #FFF;
+		font-size: 0.9em;
+		text-align:center;
+		background : #8F8F8F;
+		
+}
+
+div.agenda a:hover
+{
+		background :#DCD3D3;
+		color:black;
+		}
+		
+div.agenda  a.here
+{
+	font-weight: bold;
+	background:#fff;
+	line-height:60px;
+	color: #B20000;
+	font-size: 1.1em;
+	margin-top:-20px;
+	margin-left:1px;
+	margin-right:1px;
+	width:88px;
+	cursor:default;
+	border:1px solid #B20000;
+	border-bottom:0px;
+
+}
+/*************************** contenue agenda **********************************************/
+
+div.days
+{
+	width:960px;
+	float:right;
+	padding-top:20px;
+	padding-bottom:20px;
+	border:1px solid #B20000;
+	padding-left:10px;
+	
+	
+	
+	}
+
+div.days p
+{
+	width:110px;
+	float:left;
+	margin:0;
+	padding:0;
+	color: #B20000;
+	font-size:1.5em;
+	text-align : center;
+	height:40px;
+	border:1px #FFF solid;
+	
+	
+	}
+div.days p.week
+{
+	width:160px;
+	float:left;
+	margin:0;
+	padding:0;
+	color: #B20000;
+	font-size:1.6em;
+	text-align : left;
+	height:40px;
+
+	
+	
+	}
+	
+	
+	
+div.days a.normal_days
+{
+	width:110px;
+	float:left;
+	margin:0;
+	font-size:1.9em;
+	text-align : center;
+	color : #B20000;
+	background:#fff;
+	height:40px;
+	
+	border:1px #FFF solid;
+	
+}
+
+div.days a.normal_days:hover 
+{
+		color : #fff;
+		background:#B20000;
+		border:1px #B20000 solid;
+}
+
+
+
+div.days p.block
+{
+	width:110px;
+	float:left;
+	margin:0;
+	font-size:1.9em;
+	text-align : center;
+	color : #918989;
+	background:#fff;
+	height:40px;
+	border:1px #FFF solid;
+}
+
+div.days p.to_day:link ,div.days a.to_day:link ,div.days p.to_day:visited ,div.days a.to_day:visited 
+{
+	width:110px;
+	float:left;
+	margin:0;
+	font-size:1.9em;
+	text-align : center;
+	color : black;
+	background:#FFBC57;
+	border:1px #FF0000 solid;
+	
+	height:40px;
+}
+
+div.days a.to_day:link ,div.days p.to_day:visited ,div.days a.to_day:visited
+{
+		text-align : center;
+
+}
+div.days p.to_day:hover ,div.days a.to_day:hover , div.days p.to_day:focus ,div.days a.to_day:focus 
+{
+	color : #fff;
+		background:#B20000;
+}
+
+div.days a.week:visited, div.days a.week:link
+{
+	
+	
+	width:150px;
+	float:left;
+	margin:0;
+	font-size:1.7em;
+	text-align : left;
+	color : #fff;
+	background:#B20000;
+	margin-right:5px;
+	padding-left:5px;
+	
+
+}
+
+div.days a.week:hover
+{
+		background:#FE7575;
+		color:black;
+}
+
+
+
+
+
+/******************************************* menu test ***********************************************/
+div.menu_test
+{
+	
+		
+		margin:10px auto 0px 0px;
+		padding :0px;
+		text-align:center;
+	
+		
+		
+}
+
+div.menu_test div
+{
+		margin:0 auto;
+		display:inline;
+		
+}
+div.menu_test a:link ,div.menu_test a:visited
+{
+		font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+		background-color: #A09898 ;
+		margin :0;
+		width:100px;
+		
+		line-height : 40px;
+		font-size : 1.1em;
+		color : #fff;
+		display: block ;
+		text-decoration : none;
+		padding-left:10px;
+		float:left;
+		text-align:center;
+		margin-left:2px;
+		margin-bottom:5px;
+		
+		
+		
+}
+
+div.menu_test a:hover,div.menu_test a:active 
+{
+color : black;
+background : #DDD9D9 ;
+}
+
+div.menu_test a.here
+{
+		background-color: #fff ;
+		font-size : 1.4em;
+		line-height : 55px;
+		margin-top : -8px;
+		width:120px;
+		cursor : default;
+		color: #fc4d00;
+		
+		border : solid #fc4d00 1.5px;
+		
+	
+		
+
+}
+
+/******************************************* Right ***********************************************/
+
+div.right
+{
+	clear:left;
+	width:300px;
+	/*border : solid #B20000 1.5px;*/
+	float:left;
+	margin:0px;
+	border:1px #FFC64A solid;
+	
+	
+}
+
+
+
+div.parametre
+{
+		font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+		background:#FFC64A;
+		color:black;
+		font-size:1.3em;
+		text-align:center;
+		margin-bottom:5px;
+		
+}
+
+div.done_test,div.not_done_test
+{
+
+margin-top:5px;
+
+padding-left:20px;
+
+}
+div.done_test a.contenue
+{
+		font-family: "Trebuchet MS", sans-serif;
+		font-size: 1.2em;
+		color:#0fa321;
+		text-decoration:none;
+		
+}
+
+div.not_done_test a.contenue
+{
+		font-family: "Trebuchet MS", sans-serif;
+		font-size: 1.2em;
+		color:#d91212;
+		text-decoration:none;
+}
+
+
+
+div.not_done_test a.contenue:hover
+{
+		font-weight:bold;
+		color:#ff0000;
+}
+
+div.done_test a.contenue:hover
+{
+		font-weight:bold;
+		color:#26cc2a;
+}
+
+
+
+p.test_title
+{
+		font-size:1.2em;
+		margin:3px;
+		padding-left:20px;
+		font-family: "Trebuchet MS", sans-serif;
+		float:left;
+		
+		
+		
+		
+		
+}
+
+
+ul.test_detail
+{
+	margin:5px;
+	margin-left:20px;
+	float:left;
+	clear:left;
+	
+	
+	
+}
+ul.test_detail li
+{
+	font-size:1.1em;
+	font-style: italic;
+	margin-left:20px;
+	
+}
+/*************************** left *****************************/
+
+div.left
+{
+	
+	float:right;
+	width:670px;
+
+	
+
+}
+
+div.test_contenue
+{
+
+
+	padding-top:10px;
+}
+
+
+
+
+
+
+
+/**************************** login ******************************/
+
+div#all_login
+{
+width: 800px;
+margin: 0 auto;
+padding : 0px;
+background: url('images/background_login.png');
+
+
+
+
+}
+
+
+div#login
+{
+		width:400px;
+		height:450px;
+		background: url('images/login.png') no-repeat;
+		margin-left:200px;
+		margin-top:30px;
+		position:relative;
+}
+
+div#login input#login_email
+{
+	margin-top:125px;
+	font-size:1.8em;
+	margin-left: 70px;
+	height:40px;
+	border: 1px solid #ffa00a;
+	color: #fc4d00;
+	width:280px;
+}
+
+div#login input#login_password
+{
+	margin-top:70px;
+	font-size:1.8em;
+	margin-left: 70px;
+	height:40px;
+	border: 1px solid #ffa00a;
+	color: #fc4d00;
+	width:280px;
+}
+
+div#login input#login_botton
+{
+	height:66px;
+	width:240px;
+	margin-left:100px;
+	margin-top:10px;
+	BACKGROUND:url('images/connect.png');
+	text-indent:-1000em;
+	border:0px;
+	
+	
+	}
+
+div#login input#login_botton:hover
+{
+BACKGROUND:url('images/connect_hard.png');
+cursor:pointer;
+	
+}
+
+ p.error
+{
+	color: #red;
+	font-size:1.1em;
+	position:absolute;
+	top:100px;
+	left:450px;
+	z-index:100;
+	
+	
+	
+}
+
+body#login
+{
+	background :#e5e5e1;
+	
+}
+
+
+div#remember
+{
+margin-left:70px;
+	margin-top:10px;
+	font-size:1.4em;
+	color: #fc4d00;
+	font-weight:bold;
+}
+/********************** Nouvelles *********************************/
+
+iframe#mini_done
+{
+	
+	position:fixed;
+	right:140px;
+	top:170px;
+	border: 1px #246C14 solid;
+
+}
+table
+{
+	width:470px;
+	margin-top:48px;
+	
+}
+
+table tr td.test
+{
+width:300px;
+
+padding:3px;
+
+}
+table tr td
+{
+	border:1px solid #FFC64A;
+}
+
+table td.test a
+{
+text-decoration:none;
+font-size:1.02em;
+font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+color:#12127D;
+}
+
+table tr:hover , table tr:hover a
+{
+	background:#B20000;
+	color:#fff;
+}
+
+table tr:hover a:hover
+ {
+ color:#F8FF27;
+ }
+table tr td.temp
+{
+
+text-align:center;
+font-size:0.9em;
+font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+}
+
+table th
+{
+		font-size:1.2em;
+		font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+		background:#FFC64A;
+		color:#fff;
+		
+		text-align:center;
+		margin-bottom:5px;
+
+}
+
+
+a#more
+{
+	height:75px;
+	width:300px;
+	background: url('images/more.png');
+	text-indent:-1000em;
+	display:block;
+	margin-left:100px;
+}
+
+a#more:hover
+{
+background: url('images/more_hard.png');
+}
+
+optgroup.detail
+{
+	margin-left:60px;
+	margin-right:10px;
+}
+
+div.search
+{
+	background: #E7E1E1;
+	height:50px;
+	margin-top:30px;
+	width:900px;
+	margin-left:50px;
+
+}
+
+div.search p
+{
+		float:left;
+		font-size:1.2em;
+		margin:10px;
+	
+}
+div.search p.date_search
+{
+		float:left;
+		font-size:1.2em;
+		margin-left:10px;
+	
+}
+select#static_test
+{
+	width:230px;
+
+}
+
+
+input#search_main_botton
+{
+	height:30px;
+	width:30px;
+	float:right;
+	text-indent:-1000px;
+	cursor:pointer;
+	background:url('images/search.png');
+	border:0px;
+	margin-right:20px;
+	margin-top:10px;
+	
+}
+
+input#search_main_botton:hover
+{
+background:url('images/search_hard.png');
+}
+
+iframe#search_body
+ {
+	margin-left:20px;
+ }
+ 
+ /********************************** Administrastion ***********************************/
+
+
+div.left_menu
+{	
+	width:300px;
+	margin:0;
+	padding :0;
+	float:left;
+	margin-top:100px;
+	
+
+	
+}
+
+div.friends_body div.left_menu
+{
+	margin-top : 0px;
+}
+div.left_menu ul
+{
+	list-style:none ;
+	padding:0;
+	margin:0;
+	float:right;
+}
+
+div.left_menu ul a
+{
+	margin:0;
+	padding:0;
+	border:solid #CAC3C3 1.5px;
+	border-right :0;
+	
+
+}
+
+div.left_menu a:link ,div.left_menu a:visited
+{
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	background-color: #A09898 ;
+	margin :0;
+	width:250px;
+	text-align: center;
+	line-height : 30px;
+	font-size : 1.5em;
+	color : #fff;
+	display: block ;
+	text-decoration : none;
+	line-height : 40px;
+	
+
+}
+
+div.friends_body div.left_menu a:link ,div.left_menu a:visited
+{
+	
+	font-size : 1em;
+	
+	
+
+}
+
+
+div.left_menu a:hover,div.left_menu a:active 
+{
+color : black;
+background : #DDD9D9 ;
+}
+
+div.left_menu a.here
+{
+		background-color: #fff ;
+		font-size : 1.8em;
+		line-height : 60px;
+		margin-left : -20px;
+		width:270px;
+		cursor : default;
+		color :#fc4d00;
+		border-top : solid #FFC64A 2px;
+		border-left : solid #FFC64A 2px;
+		border-bottom : solid #FFC64A 2px;
+	
+		
+
+}
+
+div.right_administrastion
+{
+	float:left;
+	height:10px;
+	
+	width:700px;
+	margin-top:96px;
+
+	height: auto;
+	border-left : solid #FFC64A 2px;
+	
+
+}
+
+
+div.left_administrastion
+{
+	float:left;
+	
+	
+	width:700px;
+	margin-top:100px;
+	margin-left:150px;
+	height: auto;
+	
+	
+
+}
+/************************* ADD TEST **************************/
+div.add_test
+{
+margin-left:20px;
+
+
+}
+div.add_test div.add_test_title
+{
+	background:#1919B3;
+	color:#fff;
+	height:40px;
+	text-align:center;
+
+}
+div.add_test div.add_test_title p
+{
+	margin-top:0px;
+	font-size:1.5em;
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+}
+
+div.add_test p
+{
+	font-size:1.1em;
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	margin:5px auto 15px 40px;
+	
+
+}
+
+div.add_test p.main
+{
+	color:#1919B3;
+	font-size:1.2em;
+	margin-top:20px;
+	margin-bottom:0px;
+	margin-left:10px;
+
+}
+div.add_test input.nombre
+{
+	width:30px;
+
+}
+
+div.add_test input:focus
+{
+	border : solid 0.5px #1919B3;
+
+}
+
+
+input.add_test
+{
+	float:right;
+	height:150px;
+	width:150px;
+	background: url('images/add.png') no-repeat;
+	margin-right:30px;
+	text-indent:-1000em;
+	border:0px;
+	cursor:pointer;
+	
+}
+
+input.add_test:hover
+{
+	
+	background: url('images/add_hard.png') no-repeat;
+	
+	
+}
+div.add_test textarea:focus
+{
+	border : solid 0.5px #1919B3;
+
+}
+div.add_test textarea
+{
+	font-size:1em;
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	width:620px;
+	height:140px;
+
+}
+div.add_test span.error
+{
+		
+		color:#FF2E2E;
+		margin:0;
+		
+		margin-bottom:-20px;
+		font-size:0.7em;
+		
+}
+
+div.user_card
+{
+	width:140px;
+	float:left;
+	margin:10px;
+	background:#EEEEEE;
+	padding-top:10px;
+
+}
+div.user_card a
+{
+	margin:10px;
+	margin-bottom:5px;
+
+}
+
+div.user_card a img
+{
+	border:0px;
+
+}
+div.user_card p
+{
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	font-size:1.3em;
+	text-align:center;
+	margin-top:5px;
+	margin-bottom:10px;
+	
+}
+div.user_card:hover
+{
+	background: #FFCB62;
+	color:#9D0000;
+}
+
+
+div.user_card a.user
+{
+	width:120px;
+	height:40px;
+	background:url('images/user.png');
+	display:block;
+	text-indent:-1000em;
+
+}
+
+div.user_card:hover a.user
+{
+	background:url('images/user_hard.png');
+}
+
+div.user_card a.administrator
+{
+	width:120px;
+	height:40px;
+	background:url('images/administrator.png');
+	display:block;
+	text-indent:-1000em;
+
+}
+
+div.user_card:hover a.administrator
+{
+	background:url('images/administrator_hard.png');
+}
+
+div.all_tests
+{
+	margin-left:50px;
+
+}
+
+div.all_tests p
+{
+font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	font-size:1.4em;
+	color:black;
+	margin:15px;
+	margin-bottom:5px;
+	
+
+}
+
+div.all_tests ul
+{
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+		margin-left:120px;
+		margin-top:0px;
+		margin-bottom:10px;
+		font-size:1.2em;
+}
+
+div.all_tests ul a
+{
+		color: #fc4d00;
+		text-decoration:none;
+
+}
+
+div.all_tests ul a:hover
+{
+		color:#0066FF;
+
+}
+
+/************************* EDIT USER ******************************/
+a#edit_done
+{
+	float:right;
+	height:30px;
+	width:30px;
+	background: url('images/edit_done_hard.png') no-repeat;
+	margin-left:10px;
+	
+	text-indent:-1000em;
+	display:block;
+	
+	
+
+}
+
+a#edit_done:hover
+{
+background: url('images/edit_done.png') no-repeat;
+} 
+input#desactiver
+{
+	width:30px;
+	height:30px;
+	text-indent:-1000em;
+	border:0px;
+	background:url('images/disable.png');
+	cursor:pointer;
+	float:right;
+	margin-left:10px;
+	}
+input#desactiver:hover
+{
+background:url('images/disable_hard.png');
+}
+
+ form#enable_disable
+ {
+	float:right;
+ 
+ }
+input#activer
+{
+	width:30px;
+	height:30px;
+	text-indent:-1000em;
+	border:0px;
+	background:url('images/enable.png');
+	cursor:pointer;
+	float:right;
+	margin-left:10px;
+	}
+input#activer:hover
+{
+background:url('images/enable_hard.png');
+}
+iframe#delet_done
+{
+	float:right;
+
+
+}
+div.show_controle_user div.info
+{
+	width:450px;
+	float:right;
+}
+
+div.show_controle_user div.info p
+{
+		font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+		margin:10px;
+		font-size:1.2em;
+
+}
+div.show_controle_user div.info p span
+{
+		color:#1919B3;
+}
+
+div.show_controle_user div.info p span.enable
+{
+	color:#1ACC50;
+}
+
+div.show_controle_user div.info p span.disable
+{
+	color:#FF2C2C;
+}
+
+div.show_controle_user div.user_name_img 
+{
+		width:220px;
+		float:left;
+		margin-left:20px;
+		border-right:#1919B3 2px solid;
+		text-align:center;
+}
+
+div.show_controle_user div.user_name_img  p#name_user
+{
+		font-size:1.5em;
+		text-align:center;
+		font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+		margin-top:10px;
+}
+
+input#show_password
+{
+	height:20px;
+	width:35px;
+	background:url('images/show_password.png');
+	cursor:pointer;
+	border:0px;
+	text-indent:-10000em;
+	float:right;
+	margin-right:40px;
+	
+	
+}
+
+
+
+input#show_password:hover
+{
+background:url('images/show_password_hard.png');
+}
+
+
+
+
+/**************************************** edit user ************************************/
+
+div.edit_user
+{
+margin-left:20px;
+
+
+}
+div.edit_user div.add_test_title
+{
+	background:#FFC64A;
+	color:#fff;
+	height:40px;
+	text-align:center;
+
+}
+div.edit_user div.add_test_title p
+{
+	margin-top:0px;
+	font-size:1.5em;
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+}
+
+div.edit_user p
+{
+	font-size:1.1em;
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	margin:5px auto 15px 40px;
+	
+
+}
+
+div.edit_user p.main
+{
+	color:#fc4d00;
+	font-size:1.2em;
+	margin-top:20px;
+	margin-bottom:0px;
+	margin-left:10px;
+
+}
+div.edit_user input.nombre
+{
+	width:30px;
+
+}
+
+div.edit_user input:focus
+{
+	border : solid 0.5px #FFC64A;
+
+}
+
+
+input.edit_user
+{
+	float:right;
+	height:150px;
+	width:150px;
+	background: url('images/go_done.png') no-repeat;
+	margin-right:30px;
+	text-indent:-1000em;
+	border:0px;
+	cursor:pointer;
+	
+}
+
+input.edit_user:hover
+{
+	
+	background: url('images/go_done_hard.png') no-repeat;
+	
+	
+}
+div.edit_user textarea:focus
+{
+	border : solid 0.5px #1919B3;
+
+}
+div.edit_user textarea
+{
+	font-size:1em;
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	width:620px;
+	height:140px;
+
+}
+
+div.show_controle_test   
+{
+	margin-left:20px;
+	width:680px;
+}
+div.show_controle_test   p
+{
+		font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+		margin:10px;
+		font-size:1.2em;
+
+}
+div.show_controle_test   p span
+{
+		color:#1919B3;
+}
+
+div.show_controle_test div.add_test_title
+{
+	background:#1919B3;
+	color:#fff;
+	height:40px;
+	text-align:center;
+	margin-bottom:10px;
+
+}
+div.show_controle_test div.add_test_title p
+{
+	margin-top:0px;
+	
+	font-size:1.5em;
+	font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+}
+iframe.show_detail
+{
+margin-left:100px;
+
+}
+iframe.show_detail:hover
+{
+	border:1px dashed #1919B3;
+	
+}
+
+
+/*************************** contenue agenda **********************************************/
+
+div.days_static
+{
+	width:960px;
+	float:right;
+	padding-top:20px;
+	padding-bottom:40px;
+	border:1px solid #B20000;
+	padding-left:10px;
+	
+	
+	
+	}
+
+div.days_static p
+{
+	width:110px;
+	float:left;
+	margin:0;
+	padding:0;
+	color: #B20000;
+	font-size:1.5em;
+	text-align : center;
+	height:40px;
+	border:1px #FFF solid;
+	
+	
+	}
+div.days_static p.week
+{
+	width:160px;
+	float:left;
+	margin:0;
+	padding:0;
+	color: #B20000;
+	font-size:1.6em;
+	text-align : left;
+	height:40px;
+
+	
+	
+	}
+	
+	
+	
+div.days_static a.normal_days
+{
+	width:110px;
+	float:left;
+	margin:0;
+	font-size:1.9em;
+	text-align : right;
+	color : #B20000;
+	background:#fff;
+	height:40px;
+	
+	border:1px #FFF solid;
+	
+}
+
+div.days_static a.normal_days:hover 
+{
+		color : #fff;
+		background:#B20000;
+		border:1px #B20000 solid;
+}
+
+div.days_static a.normal_days img , div.days_static a.to_day img
+{
+		float : right;
+		margin-top:5px;
+		margin-right:20px;
+		margin-left:15px;
+		border:0px;
+}
+
+div.days_static p.block
+{
+	width:110px;
+	float:left;
+	margin:0;
+	font-size:1.9em;
+	text-align : center;
+	color : #918989;
+	background:#fff;
+	height:40px;
+	border:1px #FFF solid;
+}
+
+div.days_static p.to_day:link ,div.days_static a.to_day:link ,div.days_static p.to_day:visited ,div.days_static a.to_day:visited 
+{
+	width:110px;
+	float:left;
+	margin:0;
+	font-size:1.9em;
+	text-align : center;
+	color : black;
+	background:#FFBC57;
+	border:1px #FF0000 solid;
+	
+	height:40px;
+}
+
+div.days_static a.to_day:link ,div.days_static p.to_day:visited ,div.days_static a.to_day:visited
+{
+		text-align : right;
+
+}
+div.days_static p.to_day:hover ,div.days_static a.to_day:hover , div.days_static p.to_day:focus ,div.days_static a.to_day:focus 
+{
+	color : #fff;
+		background:#B20000;
+}
+
+div.days_static a.week:visited, div.days_static a.week:link
+{
+	
+	
+	width:150px;
+	float:left;
+	margin:0;
+	font-size:1.7em;
+	text-align : left;
+	color : #fff;
+	background:#B20000;
+	margin-right:5px;
+	padding-left:5px;
+	
+
+}
+
+div.days_static a.week:hover
+{
+		background:#FE7575;
+		color:black;
+}
+
+
+div.search_static
+{
+	background: #E7E1E1;
+	height:50px;
+	margin-top:30px;
+	width:850px;
+	margin-left:0px;
+	float:left;
+
+}
+
+div.search_static p
+{
+		float:left;
+		font-size:1.2em;
+		margin:10px;
+	
+}
+div.search_static p.date_search
+{
+		float:left;
+		font-size:1.2em;
+		margin-left:10px;
+	
+}
+
+
+input#general
+{
+
+	height:50px;
+	width:130px;
+	background: url('images/generale.png') no-repeat;
+	margin-right:10px;
+	margin-top:30px;
+	float:left;
+	text-indent:-1000em;
+	border:0px;
+	cursor:pointer;
+
+}
+
+input#general:hover
+{
+	background: url('images/generale_hard.png') no-repeat;
+}
+
+div.resultat
+{
+	margin-top:100px;
+	border: solid 2px #FFC64A;
+	width:780px;
+	margin-left:100px;
+	padding:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-bottom:30px;
+
+}
+
+div.resultat p
+{
+		font-family:"Comic Sans MS", "Trebuchet MS", sans-serif;
+	
+		font-size:1.2em;
+}
+
+
+div.resultat  span.purcent
+{
+	float: right;
+
+	font-size:1.8em;
+margin-top: -12px;
+}
+
+div.resultat  span.purcent img
+{
+margin-top: -25px;
+
+
+}
+
+div.resultat  span
+{
+ 	color: #fc4d00;
+	font-weight:bold ;
+}
